@@ -52,7 +52,7 @@ modules but must use Python 3.5 or higher.
 You must have ssh installed, configured for your user and available on your path as ssh. 
 
 ## License
-Freeware
+GPL 3
 
 ## Trademarks
 macOS is ® Apple Computer Corporation
