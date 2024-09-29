@@ -12,7 +12,7 @@ SSH based multi-host uptime query tool
 | -h, --help          | Show usage help                                                     |
 | host ...            | Show usage for host <host> <host>                                   |
 
-*defaults are sort ascending by hostname, if no host is specified, the host returned by uname.*
+*defaults are sort ascending by hostname, if no host is specified, use the host returned by uname.*
 
 ## Descritption
 This program retrieves uptime for the local and remote hosts and print in an easy to read format.
