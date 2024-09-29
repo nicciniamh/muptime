@@ -12,7 +12,7 @@ SSH based multi-host uptime query tool
 | -h, --help          | Show usage help                                                     |
 | host ...            | Show usage for host <host> <host>                                   |
 
-*defaults are sort ascending by hostname, if no host is specified, use the host returned by uname.*
+*defaults are sort ascending by hostname, if no host is specified, the host returned by uname.*
 
 ## Description
 This program retrieves uptime for the local and remote hosts and print in an easy to read format.
@@ -48,6 +48,8 @@ Currently muptime understands macOS® and Linux® systems.
 ## Requirements
 This program (script) requires no external python 
 modules but must use Python 3.5 or higher. 
+
+You must have ssh installed, configured for your user and available on your path as ssh. 
 
 ## License
 Freeware
