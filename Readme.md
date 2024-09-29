@@ -14,7 +14,7 @@ SSH based multi-host uptime query tool
 
 *defaults are sort ascending by hostname, if no host is specified, use the host returned by uname.*
 
-## Descritption
+## Description
 This program retrieves uptime for the local and remote hosts and print in an easy to read format.
 if a host has not been seen before, it is queried for it's platform type which is then
 cached. This speeds up future lookups.
